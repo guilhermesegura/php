@@ -55,7 +55,10 @@
         echo "<hr>";
         echo "<br>";
 
-
+        if ($_GET["name"] == "") {
+            $_GET["name"] = "Guilherme";
+        }         
+        
         echo "Hello " . $_GET["name"];
 
     ?>
